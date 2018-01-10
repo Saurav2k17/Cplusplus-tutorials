@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1515306789 source:/home/saurav/Documents/C++/destructor/main.cpp
+	<iostream>
+	"Mother.h"
+	"Daughter.h"
+
+1515306414 /home/saurav/Documents/C++/destructor/include/Mother.h
+
+1515306829 /home/saurav/Documents/C++/destructor/include/Daughter.h
+	"Mother.h"
+
+1515306679 source:/home/saurav/Documents/C++/destructor/src/Daughter.cpp
+	"Daughter.h"
+	"Mother.h"
+	<iostream>
+
+1515306687 source:/home/saurav/Documents/C++/destructor/src/Mother.cpp
+	"Mother.h"
+	<iostream>
+

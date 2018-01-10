@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1515274335 source:/home/saurav/Documents/C++/composition/main.cpp
+	<iostream>
+	"Birthday.h"
+	"People.h"
+
+1515273740 /home/saurav/Documents/C++/composition/include/Birthday.h
+
+1515274829 /home/saurav/Documents/C++/composition/include/People.h
+	<string>
+	"Birthday.h"
+
+1515273830 source:/home/saurav/Documents/C++/composition/src/Birthday.cpp
+	"Birthday.h"
+	<iostream>
+
+1515274146 source:/home/saurav/Documents/C++/composition/src/People.cpp
+	"People.h"
+	<iostream>
+	"Birthday.h"
+

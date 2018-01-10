@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1515212979 source:/home/saurav/Documents/C++/separate_class/main.cpp
+	<iostream>
+	"Burrito.h"
+
+1515212774 /home/saurav/Documents/C++/separate_class/include/Burrito.h
+
+1515212995 source:/home/saurav/Documents/C++/separate_class/src/Burrito.cpp
+	"Burrito.h"
+	<iostream>
+

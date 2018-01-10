@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1515265099 source:/home/saurav/Documents/C++/arrow_member_selection_operator/main.cpp
+	<iostream>
+	"Sally.h"
+
+1515266059 /home/saurav/Documents/C++/arrow_member_selection_operator/include/Sally.h
+
+1515265923 source:/home/saurav/Documents/C++/arrow_member_selection_operator/src/Sally.cpp
+	"Sally.h"
+	<iostream>
+

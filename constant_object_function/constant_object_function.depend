@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1515266875 source:/home/saurav/Documents/C++/constant_object_function/main.cpp
+	<iostream>
+	"Sally.h"
+
+1515266997 /home/saurav/Documents/C++/constant_object_function/include/Sally.h
+
+1515266580 source:/home/saurav/Documents/C++/constant_object_function/src/Sally.cpp
+	"Sally.h"
+	<iostream>
+

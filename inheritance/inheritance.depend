@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1515300738 source:/home/saurav/Documents/C++/inheritance/main.cpp
+	<iostream>
+	"Mother.h"
+	"Daughter.h"
+
+1515299983 /home/saurav/Documents/C++/inheritance/include/Mother.h
+
+1515300664 /home/saurav/Documents/C++/inheritance/include/Daughter.h
+	"Mother.h"
+
+1515300352 source:/home/saurav/Documents/C++/inheritance/src/Daughter.cpp
+	"Daughter.h"
+	"Mother.h"
+	<iostream>
+
+1515300391 source:/home/saurav/Documents/C++/inheritance/src/Mother.cpp
+	"Mother.h"
+	<iostream>
+
