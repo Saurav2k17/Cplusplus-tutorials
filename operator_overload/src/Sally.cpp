@@ -14,7 +14,7 @@ Sally::Sally(int a)
 
 Sally Sally::operator+(Sally aso)
 {
-    Sally brandNew;
-    brandNew.num = num + aso.num;
-    return(brandNew);
+    //Sally brandNew;
+    //brandNew.num = this->num + aso.num;
+    return(num + aso.num);
 }
