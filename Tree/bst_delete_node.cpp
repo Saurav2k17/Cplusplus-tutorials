@@ -89,16 +89,20 @@ Node* deleteNode(Node* root, int key)
 
 		Node* succParent = root->right; 
 		
-		// Find inorder successor 
+		// Find inorder successor (need to find the smallest node in the right subtree of the root)
 		Node *succ = root->right; 
 		while (succ->left != NULL) { 
 			succParent = succ; 
 			succ = succ->left; 
 		} 
 
-		// Delete successor. Since successor is always left child of its parent 
-		// we can safely make successor's right child as the left child of its parent.
-		succParent->left = succ->right; 
+		if (succ == succParent) // when root->right subtree has no child on the left
+			root->right = succ->right;
+		 
+		else 
+		// when successor is left child of its parent, 
+		// we can safely make successor's right child as the left child of its parent
+			succParent->left = succ->right; 
 
 		// Copy Successor Data to root 
 		root->key = succ->key; 
@@ -116,8 +120,10 @@ int main()
 			 50 
 		   /   \ 
 		 30    70 
-		/ \   / \ 
-	   20 40 60 80 
+		/ \     \ 
+	   20 40    80
+				 \ 
+				100
 	*/
 	Node* root = NULL; 
 	root = insert(root, 50); 
@@ -125,8 +131,9 @@ int main()
 	insert(root, 20); 
 	insert(root, 40); 
 	insert(root, 70); 
-	insert(root, 60); 
+	//insert(root, 60); 
 	insert(root, 80); 
+	insert(root, 100);
 
 	cout << "Inorder traversal of the given tree \n"; 
 	inorder(root); 
